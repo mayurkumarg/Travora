@@ -1,0 +1,193 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+  /* font-optical-sizing: auto; */
+  /* font-weight: ; */
+  /* font-style: normal; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+ flex:1;
+}
+
+/* Remove your old position: relative; left:20px; */
+.brand-name {
+  margin-left: 8px;   /* space between logo and text */
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar-nav{
+    background-color: white !important;
+    opacity: 0.8;  
+}
+
+.brand{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.brand-name{
+    position: relative;
+    right: 11px;
+    color: #fe424d;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: white;
+}
+
+.navbar-nav{
+    gap: 20px !important;
+}
+
+.media_logo{
+    color: #222222;
+    font-size: 22px;
+}
+
+.fa-paper-plane{
+    color: #fe424d;
+    font-size: 25px;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    padding: 15px;
+    /* height: 10vh; */
+    background-color: rgb(175 175 188 / 31%);
+    /* margin-bottom: 5px; */
+       /* pushes footer to bottom */
+}
+
+.priv_term{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 13px;
+}
+.priv_term a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.social_logos{
+    display: flex;
+    gap: 15px;
+}
+
+.social_logos a{
+     padding: 3px;
+}
+.priv_term a:hover{
+    text-decoration: underline;
+}
+
+.social_logos a:hover{
+    background-color: rgb(217, 211, 211);
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.listing-card{
+    border: none !important;
+    margin-top: 2rem !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0  !important;
+}
+
+.card-text{
+    font-weight: 500 !important;
+    padding: 3px;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.show-image{
+    height: 40vh;
+}
+
+.edit-delete-btn{
+    display: flex;
+    gap: 30px;
+}
+.ed-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+    height: 35px;
+    text-align: center !important;
+}
+.dl-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+    height: 35px;
+    text-align: center !important;
+}
+
+.show_text{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-top:10px !important;
+    margin-bottom: 15px !important;
+}
+
+
+/* MAP */
+#map {
+    width: 100%;      /* Full width of the column */
+    height: 400px;    /* Or whatever height you want */
+}
+
+.new-accnt{
+    width: 145px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.final-style{
+    margin-top: 20px;
+}

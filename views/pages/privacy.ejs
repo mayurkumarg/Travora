@@ -1,0 +1,131 @@
+<% layout("layouts/mainLayout") %>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ff4d4d, #b31616); /* 🔴 Stylish red gradient */
+        margin: 0;
+        padding: 0;
+    }
+
+    .privacy-container {
+        max-width: 900px;
+        margin: 3rem auto;
+        background: #fff;
+        padding: 2.5rem;
+        border-radius: 18px;
+        box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+        color: #333;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .privacy-container h2 {
+        text-align: center;
+        margin-bottom: 1.8rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+        color: #b31616;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .privacy-container h4 {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #ff4d4d;
+        border-left: 4px solid #ff4d4d;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .privacy-container h4:hover {
+        color: #b31616;
+        transform: translateX(5px);
+    }
+
+    .privacy-container p {
+        line-height: 1.8;
+        color: #444;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .privacy-container ul {
+        margin-top: 0.8rem;
+        margin-left: 1.5rem;
+        list-style: none;
+    }
+
+    .privacy-container ul li {
+        margin: 0.4rem 0;
+        position: relative;
+        padding-left: 25px;
+        font-size: 1rem;
+    }
+
+    /* Stylish bullet points */
+    .privacy-container ul li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        color: #ff4d4d;
+        font-weight: bold;
+    }
+
+    .privacy-container b {
+        color: #b31616;
+    }
+
+    /* Smooth fade-in */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<div class="privacy-container">
+    <h2>Privacy Policy</h2>
+
+    <p>Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you use our platform.</p>
+
+    <h4>1. Information We Collect</h4>
+    <p>We may collect the following information:</p>
+    <ul>
+        <li>Personal details (name, email, contact info)</li>
+        <li>Location details for listings</li>
+        <li>Payment and transaction data</li>
+        <li>Reviews, comments, and feedback</li>
+    </ul>
+
+    <h4>2. How We Use Your Information</h4>
+    <p>We use your information to:</p>
+    <ul>
+        <li>Provide and improve our services</li>
+        <li>Process bookings and payments</li>
+        <li>Send important updates or notifications</li>
+        <li>Ensure safety and prevent fraud</li>
+    </ul>
+
+    <h4>3. Sharing of Information</h4>
+    <p>We do not sell your personal data. However, we may share information with:</p>
+    <ul>
+        <li>Service providers (e.g., payment gateways)</li>
+        <li>Legal authorities if required</li>
+        <li>Other users, but only limited to what is necessary (e.g., host details)</li>
+    </ul>
+
+    <h4>4. Data Security</h4>
+    <p>We use secure methods to protect your data. However, no system is 100% secure, so we encourage you to protect your account with a strong password.</p>
+
+    <h4>5. Your Rights</h4>
+    <p>You can request access, correction, or deletion of your personal data anytime by contacting us.</p>
+
+    <h4>6. Updates to this Policy</h4>
+    <p>We may update this Privacy Policy occasionally. Changes will be posted on this page with a new "last updated" date.</p>
+
+    <p><b>Last Updated:</b> September 2025</p>
+</div>

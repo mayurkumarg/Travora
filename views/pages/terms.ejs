@@ -1,0 +1,120 @@
+<% layout("layouts/mainLayout") %>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ff4d4d, #b31616);
+        margin: 0;
+        padding: 0;
+    }
+
+    .terms-container {
+        max-width: 900px;
+        margin: 3rem auto;
+        background: #fff;
+        padding: 2.5rem;
+        border-radius: 18px;
+        box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+        color: #333;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .terms-container h2 {
+        text-align: center;
+        margin-bottom: 1.8rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+        color: #b31616;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .terms-container h4 {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #ff4d4d;
+        border-left: 4px solid #ff4d4d;
+        padding-left: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .terms-container h4:hover {
+        color: #b31616;
+        transform: translateX(5px);
+    }
+
+    .terms-container p {
+        line-height: 1.8;
+        color: #444;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .terms-container ul {
+        margin-top: 0.8rem;
+        margin-left: 1.5rem;
+        list-style: none;
+    }
+
+    .terms-container ul li {
+        margin: 0.4rem 0;
+        position: relative;
+        padding-left: 25px;
+        font-size: 1rem;
+    }
+
+    /* Stylish checkmark bullets */
+    .terms-container ul li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        color: #ff4d4d;
+        font-weight: bold;
+    }
+
+    .terms-container b {
+        color: #b31616;
+    }
+
+    /* Smooth fade-in */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<div class="terms-container">
+    <h2>Terms & Conditions</h2>
+
+    <p>By using our platform, you agree to comply with the following Terms & Conditions. Please read them carefully before using our services.</p>
+
+    <h4>1. Acceptance of Terms</h4>
+    <p>By accessing or using our services, you agree to be bound by these Terms & Conditions and our Privacy Policy.</p>
+
+    <h4>2. User Responsibilities</h4>
+    <p>When using our platform, you agree to:</p>
+    <ul>
+        <li>Provide accurate and up-to-date information</li>
+        <li>Respect other users and hosts</li>
+        <li>Not engage in fraudulent or illegal activities</li>
+        <li>Comply with all applicable laws and regulations</li>
+    </ul>
+
+    <h4>3. Bookings & Payments</h4>
+    <p>All bookings are subject to availability and confirmation. Payments must be made securely through approved channels.</p>
+
+    <h4>4. Cancellations & Refunds</h4>
+    <p>Cancellation and refund policies may vary depending on the listing. Please check individual terms before booking.</p>
+
+    <h4>5. Limitation of Liability</h4>
+    <p>We are not responsible for any direct, indirect, or incidental damages resulting from the use of our platform.</p>
+
+    <h4>6. Changes to Terms</h4>
+    <p>We reserve the right to update or modify these Terms at any time. Continued use of our platform means you accept the changes.</p>
+
+    <p><b>Last Updated:</b> September 2025</p>
+</div>
