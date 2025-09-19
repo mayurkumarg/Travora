@@ -49,20 +49,20 @@ The platform also supports user authentication, sessions, image uploads, reviews
 
 🗂️ Project Structure
 
-TRAVORA/
-│── controllers/       # Controllers for listings, reviews, and users
-│── init/              # Initialization utilities
-│── models/            # Mongoose models (User, Listing, Review)
-│── public/            # Static assets (CSS, JS, images)
-│── routes/            # Express route handlers
-│── utils/             # Utility functions (custom error, async wrappers)
-│── views/             # EJS templates for pages
-│── app.js             # Main entry point
-│── cloudConfig.js     # Cloudinary / storage config
-│── middleware.js      # Custom middleware (auth, validation)
-│── schema_validation.js # Joi validation schemas
-│── .env               # Environment variables
-│── package.json       # Dependencies & scripts
+    TRAVORA/
+    │── controllers/       # Controllers for listings, reviews, and users
+    │── init/              # Initialization utilities
+    │── models/            # Mongoose models (User, Listing, Review)
+    │── public/            # Static assets (CSS, JS, images)
+    │── routes/            # Express route handlers
+    │── utils/             # Utility functions (custom error, async wrappers)
+    │── views/             # EJS templates for pages
+    │── app.js             # Main entry point
+    │── cloudConfig.js     # Cloudinary / storage config
+    │── middleware.js      # Custom middleware (auth, validation)
+    │── schema_validation.js # Joi validation schemas
+    │── .env               # Environment variables
+    │── package.json       # Dependencies & scripts
 
 
 ⚙️ Tech Stack
